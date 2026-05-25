@@ -14,7 +14,7 @@ module.exports = async function runStatsExtractor(page) {
     //{ tierId: 5, startPage: 1, endPage: 191 },
     //{ tierId: 4, startPage: 1, endPage: 193 },
     //{ tierId: 3, startPage: 1, endPage: 298 },
-    { tierId: 10, startPage: 1, endPage: 91 }, // lvl 69 and above
+    { tierId: 10, startPage: 1, endPage: 126 }, // lvl 69 and above
     // add/remove ranges as needed
   ];
 
@@ -171,7 +171,7 @@ module.exports = async function runStatsExtractor(page) {
 
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
-  const inviteMessage = `Hi sweetheart! <3 Would you like to join our club? 😊 We do not have any fee, our club stats are maxed out, and we have some of the best trophies in the game which really help gameplay ✨ We only do casual club fights, and we are very lenient about members activity too ♥ We are pretty laid back and a friendly bunch. It would honestly be a pleasure to have you with us ^^`;
+  const inviteMessage = `Hello sweetheart! I"d love to invite you to our club, LOYALTY. Joining us boosts your stats by 50%, gives you 25% more dollars from Beauty Pageant wins, your blue energy refills 5 minutes faster, and your maximum blue energy limit increases from 10 to 13. We dont require any donations and we place no pressure on gameplay or activity, you can continue playing exactly the way you already do. Your presence would truly strengthen our club, and it would be a pleasure to have you with us (◍•ᴗ•◍)❤`;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];
