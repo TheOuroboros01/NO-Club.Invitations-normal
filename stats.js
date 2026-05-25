@@ -110,6 +110,7 @@ module.exports = async function runStatsExtractor(page) {
     "Mikasapisame",//kicked - partial activity - not joining fights
     "FΣΛЯLΣSS",//kicked - partial activity - not joining fights
     "Luna",// rej
+    "Lina",
     /* "_",//
     "_",//
     "_",//
