@@ -172,7 +172,7 @@ module.exports = async function runStatsExtractor(page) {
 
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
-  const inviteMessage = `Hello sweetheart! I"d love to invite you to our club, LOYALTY. Joining us boosts your stats by 50%, gives you 25% more dollars from Beauty Pageant wins, your blue energy refills 5 minutes faster, and your maximum blue energy limit increases from 10 to 13. We dont require any donations and we place no pressure on gameplay or activity, you can continue playing exactly the way you already do. Your presence would truly strengthen our club, and it would be a pleasure to have you with us (◍•ᴗ•◍)❤`;
+  const inviteMessage = `Hello sweetheart! I would love to invite you to our club, LOYALTY. Being part of us comes with some nice perks like higher stats, extra dollars, and faster energy refill. There are no donations, and you can keep playing exactly the way you enjoy. Your presence would make our club even stronger, and it would be a real pleasure to have you with us 🤍 (◍•ᴗ•◍)❤`;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];
