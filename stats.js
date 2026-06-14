@@ -14,7 +14,7 @@ module.exports = async function runStatsExtractor(page) {
     //{ tierId: 5, startPage: 1, endPage: 191 },
     //{ tierId: 4, startPage: 1, endPage: 193 },
     //{ tierId: 3, startPage: 1, endPage: 298 },
-    { tierId: 10, startPage: 1, endPage: 126 }, // lvl 69 and above
+    { tierId: 10, startPage: 1, endPage: 127 }, // lvl 69 and above
     // add/remove ranges as needed
   ];
 
@@ -111,9 +111,9 @@ module.exports = async function runStatsExtractor(page) {
     "FΣΛЯLΣSS",//kicked - partial activity - not joining fights
     "Luna",// rej
     "Lina",
-    /* "_",//
-    "_",//
-    "_",//
+    "Kahh",//removed by me at lvl 59
+    "Cymbaline",//rej
+    "Arquemedes",//rej
     "_",//
     "_",//
     "_",//
@@ -172,7 +172,7 @@ module.exports = async function runStatsExtractor(page) {
 
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
-  const inviteMessage = `Hello sweetheart! I would love to invite you to our club, LOYALTY. Being part of us comes with some nice perks like higher stats, extra dollars, and faster energy refill. There are no donations, and you can keep playing exactly the way you enjoy. Your presence would make our club even stronger, and it would be a real pleasure to have you with us 🤍 (◍•ᴗ•◍)❤`;
+  const inviteMessage = `Hello sweetheart! I would love to invite you to our club, LOYALTY. Being part of us comes with some nice perks like higher stats, extra dollars, and faster energy refill. There are no donations, and you can keep playing exactly the way you enjoy. Your presence would make our club even stronger, and it would be a real pleasure to welcome you 🤍 (◍•ᴗ•◍)❤`;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];
