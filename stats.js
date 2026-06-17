@@ -10,11 +10,11 @@ module.exports = async function runStatsExtractor(page) {
     //{ tierId: 9, startPage: 1, endPage: 85 }, // tier 10 (50+)
     //{ tierId: 8, startPage: 1, endPage: 91 },
     //{ tierId: 7, startPage: 1, endPage: 126 },
-    //{ tierId: 6, startPage: 1, endPage: 144 },
-    //{ tierId: 5, startPage: 1, endPage: 191 },
-    //{ tierId: 4, startPage: 1, endPage: 193 },
-    //{ tierId: 3, startPage: 1, endPage: 298 },
-    { tierId: 10, startPage: 1, endPage: 127 }, // lvl 69 and above
+    { tierId: 6, startPage: 1, endPage: 140 },
+    { tierId: 7, startPage: 1, endPage: 124 },
+    { tierId: 8, startPage: 1, endPage: 94 },
+    { tierId: 9, startPage: 1, endPage: 82 },
+    { tierId: 10, startPage: 1, endPage: 301 }, // lvl 69 and above
     // add/remove ranges as needed
   ];
 
@@ -90,7 +90,7 @@ module.exports = async function runStatsExtractor(page) {
 
   // ✏️ Add names here (case-insensitive)
   const excludedNames = [
-    "Nata_",//join n left
+    /* "Nata_",//join n left
     "Kaisee",//rej
     "Raquel",//rej
     "Serena", //rej
@@ -113,7 +113,7 @@ module.exports = async function runStatsExtractor(page) {
     "Lina",
     "Kahh",//removed by me at lvl 59
     "Cymbaline",//rej
-    "Arquemedes",//rej
+    "Arquemedes",//rej */
     "_",//
     "_",//
     "_",//
@@ -129,7 +129,7 @@ module.exports = async function runStatsExtractor(page) {
     "_",//
     "_",//
     "_",//
-    "_",// */    
+    "_",//    
   ];
 
   // Normalize exclusion list once
@@ -172,7 +172,7 @@ module.exports = async function runStatsExtractor(page) {
 
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
-  const inviteMessage = `Hello sweetheart! I would love to invite you to our club, LOYALTY. Being part of us comes with some nice perks like higher stats, extra dollars, and faster energy refill. There are no donations, and you can keep playing exactly the way you enjoy. Your presence would make our club even stronger, and it would be a real pleasure to welcome you 🤍 (◍•ᴗ•◍)❤`;
+  const inviteMessage = `Hello darling! We are a growing club with not many requirements. We would be honored if you considered joining us. Thank you!`;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];
