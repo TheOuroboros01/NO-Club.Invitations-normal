@@ -10,9 +10,9 @@ module.exports = async function runStatsExtractor(page) {
     //{ tierId: 9, startPage: 1, endPage: 85 }, // tier 10 (50+)
     //{ tierId: 8, startPage: 1, endPage: 91 },
     //{ tierId: 7, startPage: 1, endPage: 126 },
-    { tierId: 6, startPage: 1, endPage: 140 },
-    { tierId: 7, startPage: 1, endPage: 124 },
-    { tierId: 8, startPage: 1, endPage: 94 },
+    //{ tierId: 6, startPage: 1, endPage: 140 },
+    //{ tierId: 7, startPage: 1, endPage: 124 },
+    //{ tierId: 8, startPage: 1, endPage: 94 },
     { tierId: 9, startPage: 1, endPage: 82 },
     { tierId: 10, startPage: 1, endPage: 301 }, // lvl 69 and above
     // add/remove ranges as needed
