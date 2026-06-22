@@ -13,8 +13,8 @@ module.exports = async function runStatsExtractor(page) {
     //{ tierId: 6, startPage: 1, endPage: 140 },
     //{ tierId: 7, startPage: 1, endPage: 124 },
     //{ tierId: 8, startPage: 1, endPage: 94 },
-    { tierId: 9, startPage: 1, endPage: 82 },
-    { tierId: 10, startPage: 1, endPage: 301 }, // lvl 69 and above
+    //{ tierId: 9, startPage: 1, endPage: 82 },
+    { tierId: 10, startPage: 1, endPage: 111 }, // lvl 67 and above
     // add/remove ranges as needed
   ];
 
@@ -90,7 +90,7 @@ module.exports = async function runStatsExtractor(page) {
 
   // ✏️ Add names here (case-insensitive)
   const excludedNames = [
-    /* "Nata_",//join n left
+    "Nata_",//join n left
     "Kaisee",//rej
     "Raquel",//rej
     "Serena", //rej
@@ -113,8 +113,8 @@ module.exports = async function runStatsExtractor(page) {
     "Lina",
     "Kahh",//removed by me at lvl 59
     "Cymbaline",//rej
-    "Arquemedes",//rej */
-    "_",//
+    "Arquemedes",//rej
+    "May Fernandes",//removed by me dt lvl 67 for 150d inactivity
     "_",//
     "_",//
     "_",//
@@ -172,7 +172,7 @@ module.exports = async function runStatsExtractor(page) {
 
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
-  const inviteMessage = `Hello darling! We are a growing club with not many requirements. We would be honored if you considered joining us. Thank you!`;
+  const inviteMessage = `Hey dear! I would like to invite you in our club. We are one of the stronger clubs in the game, super chill and supportive, and we do not have many requirements. We are also flexible and happy to work around what suits you. Feel free to join us by accepting the invite, or write to me for any questions. Happy Gaming! <3 `;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];
