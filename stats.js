@@ -115,8 +115,8 @@ module.exports = async function runStatsExtractor(page) {
     "Cymbaline",//rej
     "Arquemedes",//rej
     "May Fernandes",//removed by me dt lvl 67 for 150d inactivity
-    "_",//
-    "_",//
+    "maggiemee",//rej
+    "ceca 1",//rej
     "_",//
     "_",//
     "_",//
