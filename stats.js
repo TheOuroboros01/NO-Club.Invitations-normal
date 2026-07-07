@@ -14,7 +14,7 @@ module.exports = async function runStatsExtractor(page) {
     //{ tierId: 7, startPage: 1, endPage: 124 },
     //{ tierId: 8, startPage: 1, endPage: 94 },
     //{ tierId: 9, startPage: 1, endPage: 82 },
-    { tierId: 10, startPage: 1, endPage: 121 }, // lvl 67 and above
+    { tierId: 10, startPage: 1, endPage: 97 }, // lvl 67 and above
     // add/remove ranges as needed
   ];
 
@@ -119,7 +119,7 @@ module.exports = async function runStatsExtractor(page) {
     "ceca 1",//rej
     "Angel",//rej
     "Indila",//alt acc
-    "Zelda Hyrule",//alt acc
+    "R H A E N Y R A",//alt acc
     "TheResa75",//remove later from this list
     "arianna0002",//in her friend club
     "ღZoeNoireSashaღ",//in her friend club
@@ -172,7 +172,7 @@ module.exports = async function runStatsExtractor(page) {
 
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
-  const inviteMessage = `Hello dear! Hope you are doing well. I noticed you are not in a club right now and wanted to invite you to ours, LOYALTY. We are a friendly and supportive group, and also fairly strong with some nice trophies. We respect your playstyle and will not pressure you to change it. It would be a pleasure to have you with us... Feel free to join by accepting the invitation 😊💕`;
+  const inviteMessage = `💖 Hello love! 💖 I would like to invite you to our club, LOYALTY. We are a friendly and supportive group that offers maximum club bonuses and a relaxed environment. We do not require donations. If you would like to progress in the game while enjoying the added benefits of our club, you are welcome to join us by either accepting the invitation or submitting an application. It would be a pleasure to have you with us. Wishing you happy gaming! 💕`;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];
