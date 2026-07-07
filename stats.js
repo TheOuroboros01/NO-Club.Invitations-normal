@@ -120,10 +120,9 @@ module.exports = async function runStatsExtractor(page) {
     "Angel",//rej
     "Indila",//alt acc
     "R H A E N Y R A",//alt acc
-    "TheResa75",//remove later from this list
     "arianna0002",//in her friend club
     "ღZoeNoireSashaღ",//in her friend club
-    "_",//
+    "сабрина",//low skills
     "_",//
     "_",//
     "_",//
